@@ -16,8 +16,6 @@ class UsersController < ApplicationController
         redirect_to("/user_sign_in", {:alert => "Incorrect password, try again."})
       end
     end
-
-    render({ :template => })
   end
 
   def toast_cookies
